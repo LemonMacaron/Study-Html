@@ -1,26 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Nav</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+  nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: lightgray;
+    position: fixed;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    padding: 6px;
+    font-size: 19px;
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .box {
+    margin-top: 10%;
+    height: 1000px;
+  }
+  </style>
 </head>
 <body>
   <div>
-      <div id="A" style="height: 1000px; width: 1000px">
-        <h1> Hi </h1>
-      </div>
-      <div id="B" style="height: 1000px; width: 1000px">
-        <h1> Hi </h1>
-      </div>
-      <div id="C" style="height: 1000px; width: 1000px">
-        <h1> Hi </h1>
-      </div>
-      <div id="D" style="height: 1000px; width: 1000px">
-        <h1> Hi </h1>
-      </div>
-      <div id="E" style="height: 1000px; width: 1000px">
-        <h1> Hi </h1>
-      </div>
+    <div id="A" class="box">
+      <h1> A</h1>
+      <h1> A</h1>
+      <h1> A</h1>
+    </div>
+    <div id="B" class="box">
+      <h1> B </h1>
+      <h1> B </h1>
+      <h1> B </h1>
+    </div>
+    <div id="C" class="box">
+      <h1> C </h1>
+      <h1> C </h1>
+      <h1> C </h1>
+    </div>
+    <div id="D" class="box">
+      <h1> D </h1>
+      <h1> D </h1>
+      <h1> D </h1>
+    </div>
+    <div id="E" class="box">
+      <h1> E </h1>
+      <h1> E </h1>
+      <h1> E </h1>
+    </div>
   </div>
   <div>
     <nav>
